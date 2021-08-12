@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".test11">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+    <ImageView
+    android:background="@drawable/butn_backgraound"
+    android:clickable="true"
+    android:focusable="true"
+    android:id="@+id/back4"
+    android:layout_margin="20dp"
+    android:layout_width="32dp"
+    android:layout_height="32dp"
+    android:src="@drawable/ic_back"/>
+
+        <TextView
+            android:id="@+id/showtitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/butn_backgraound2"
+            android:fontFamily="@font/baloo"
+            android:gravity="center"
+            android:text=" ছন্দে ছবিতে ব্যঞ্জনবর্ণ "
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#FBFEFF"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <LinearLayout
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?attr/selectableItemBackground"
+        android:id="@+id/myLinerID"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:scaleType="centerInside"
+            android:id="@+id/myimageID"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="20dp"
+            android:layout_weight="2"
+            android:src="@drawable/thutu_fela" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/myTextID1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:fontFamily="@font/baloo"
+                android:gravity="center"
+                android:text="ফ -"
+                android:textColor="#054767"
+                android:textSize="70sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/MyTextID2"
+                android:layout_weight="1"
+                android:textColor="#054767"
+                android:fontFamily="@font/baloo"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textStyle="bold"
+                android:text="তে ফেল"
+                android:gravity="center|start"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/MyTextID3"
+                android:textColor="#CC3404"
+                android:fontFamily="@font/baloo"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textStyle="bold"
+                android:text="ফেল "
+                android:gravity="end"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"/>
+            <TextView
+                android:id="@+id/MyTextID4"
+                android:textColor="#054767"
+                android:fontFamily="@font/baloo"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textStyle="bold"
+                android:gravity="start"
+                android:layout_gravity="top"
+                android:text=" কর না পরীক্ষায়"
+                android:drawableBottom="@drawable/ic_speaker2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

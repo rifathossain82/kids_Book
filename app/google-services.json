@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "221438911422",
+    "firebase_url": "https://my-kids-book.firebaseio.com",
+    "project_id": "my-kids-book",
+    "storage_bucket": "my-kids-book.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:221438911422:android:26587d4cc2e54eae808fef",
+        "android_client_info": {
+          "package_name": "com.test.mykidsbook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "221438911422-brr7gj0mb8b6r70ab2sealegkhq6ne01.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvK2rUNekHWJW1ZCi9IZdRgsJ_OiMRD5o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "221438911422-brr7gj0mb8b6r70ab2sealegkhq6ne01.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

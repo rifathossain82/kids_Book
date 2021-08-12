@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">আদর্শলিপি - একের ভিতর সব</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="baburam_sapure"></string>
+    <string name="title_activity_day__month__seasons">Day_Month_Seasons</string>
+    <string name="tab_text_1">দিনের নাম</string>
+    <string name="tab_text_2">মাসের নাম</string>
+    <string name="tab_text_3">ঋতুর নাম</string>
+
+    <string-array name="country_name">
+        <item>1. Bangla Sorborno | বর্ণমালা - অ আ | Bangla Bornomala | Bangla Cartoon |</item>
+        <item>2. Banjonborno song | ব্যঞ্জনবর্ণ -ক খ | Bangla Bornomala |</item>
+        <item>3. Ek Dui Tin | এক দুই তিন চার | Bangla Numbers | Bangla Cartoon |</item>
+        <item>4. ABC Alphabet Songs with Sounds for Children</item>
+        <item>5. Number Song | Nursery Rhymes For Children | </item>
+        <item>6. Oi ojogor asche tere | Aye ajagar | অ য় অজগর আসছে তেড়ে | Bangla Cartoon</item>
+        <item>7. খোকা যাবে শ্বশুর বাড়ি Khoka jabe soshur bari | Popular Bengali Nursery Rhymes</item>
+        <item>8. Aye Aye Chand Mama | আয় আয় চাঁদ মামা | Ai Ai Chand | Bengali Cartoon| Bengali Rhymes</item>
+        <item>9. Johny Johny Yes Papa 👶 THE BEST Song for Children</item>
+        <item>10. সাপের সাথে বিয়ে | Marriage with Snakes story | Original Bengali Stories |</item>
+        <item>11. চালাক শিয়াল ও বোকা কুমিরের চাষবাস | Clever Fox and Foolish Crocodile Story |</item>
+        <item>12. Bengali Story : সলিটায়ার গাছ | Bengali Fairy Tales</item>
+
+    </string-array>
+</resources>

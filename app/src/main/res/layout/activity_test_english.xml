@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".test_english">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:background="@drawable/butn_backgraound"
+            android:clickable="true"
+            android:focusable="true"
+            android:id="@+id/eng_test_back"
+            android:layout_margin="20dp"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@drawable/ic_back"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/butn_backgraound2"
+            android:fontFamily="@font/baloo"
+            android:gravity="center"
+            android:text="ছবিতে ইংরেজি বর্ণমালা"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#FBFEFF" />
+    </LinearLayout>
+    <LinearLayout
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?attr/selectableItemBackground"
+        android:id="@+id/eng_test_LinerID"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:scaleType="centerInside"
+            android:id="@+id/eng_test_imageID"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="20dp"
+            android:layout_weight="2"
+            android:src="@drawable/adesh_palon" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/eng_test_TextID1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:fontFamily="@font/baloo"
+                android:gravity="center"
+                android:text="A -"
+                android:textColor="#054767"
+                android:textSize="70sp"/>
+
+            <TextView
+                android:id="@+id/eng_test_TextID2"
+                android:layout_weight="1"
+                android:textColor="#054767"
+                android:fontFamily="@font/baloo"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:text="তে  Ant\n(এ্যান্ট)\nপিঁপড়া"
+                android:gravity="bottom|start"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/eng_test_TextID3"
+                android:textColor="#CC3404"
+                android:fontFamily="@font/baloo"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:text="Ant "
+                android:gravity="end"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"/>
+            <TextView
+                android:textAllCaps="false"
+                android:id="@+id/eng_test_TextID4"
+                android:textColor="#054767"
+                android:fontFamily="@font/baloo"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:gravity="start"
+                android:layout_gravity="top"
+                android:text=" চলে ছয় পায়"
+                android:drawableBottom="@drawable/ic_speaker2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

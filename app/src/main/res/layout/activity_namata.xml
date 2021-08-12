@@ -1,0 +1,655 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/me_home2"
+    tools:context=".Namata">
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/namata_backID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|start"
+        android:layout_margin="@dimen/fab_margin"
+        android:background="#f000"
+        android:foregroundTint="#f000"
+        android:backgroundTint="#070707"
+        app:srcCompat="@drawable/ic_back" />
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="10dp"
+                    android:background="#FBFAFA">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="১ - এর নামতা"
+                        android:gravity="center"
+                        android:textColor="#070706"
+                        android:textSize="40sp"
+                        android:background="#FFB300"
+                        android:fontFamily="@font/baloo"
+                        />
+                    <TextView
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:foreground="?attr/selectableItemBackground"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="১ × ১ = ১\n১ × ২ = ২\n১ × ৩ = ৩\n১ × ৪ = ৪\n১ × ৫ = ৫\n১ × ৬ = ৬\n১ × ৭ = ৭\n১ × ৮ = ৮\n১ × ৯ = ৯\n১ × ১০ = ১০"
+                        android:gravity="center"
+                        android:textColor="#020101"
+                        android:textSize="30sp"
+                        android:fontFamily="@font/baloo"
+                        android:id="@+id/namta1"
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="10dp"
+                    android:background="#FBFAFA">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="২ - এর নামতা"
+                        android:gravity="center"
+                        android:textColor="#070706"
+                        android:textSize="40sp"
+                        android:background="#FFB300"
+                        android:fontFamily="@font/baloo"
+                        />
+                    <TextView
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:foreground="?attr/selectableItemBackground"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="২ × ১ = ২\n২ × ২ = ৪\n২ × ৩ = ৬\n২ × ৪ = ৮\n২ × ৫ = ১০\n২ × ৬ = ১২\n২ × ৭ = ১৪\n২ × ৮ = ১৬\n২ × ৯ = ১৮\n২ × ১০ = ২০"
+                        android:gravity="center"
+                        android:textColor="#020101"
+                        android:textSize="30sp"
+                        android:fontFamily="@font/baloo"
+                        android:id="@+id/namta2"
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="10dp"
+                    android:background="#FBFAFA">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="৩ - এর নামতা"
+                        android:gravity="center"
+                        android:textColor="#070706"
+                        android:textSize="40sp"
+                        android:background="#FFB300"
+                        android:fontFamily="@font/baloo"
+                        />
+                    <TextView
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:foreground="?attr/selectableItemBackground"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="৩ × ১ = ৩\n৩ × ২ = ৬\n৩ × ৩ = ৯\n৩ × ৪ = ১২\n৩ × ৫ = ১৫\n৩ × ৬ = ১৮\n৩ × ৭ = ২১\n৩ × ৮ = ২৪\n৩ × ৯ = ২৭\n৩ × ১০ = ৩০"
+                        android:gravity="center"
+                        android:textColor="#020101"
+                        android:textSize="30sp"
+                        android:fontFamily="@font/baloo"
+                        android:id="@+id/namta3"
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="10dp"
+                    android:background="#FBFAFA">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="৪ - এর নামতা"
+                        android:gravity="center"
+                        android:textColor="#070706"
+                        android:textSize="40sp"
+                        android:background="#FFB300"
+                        android:fontFamily="@font/baloo"
+                        />
+                    <TextView
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:foreground="?attr/selectableItemBackground"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="৪ × ১ = ৪\n৪ × ২ = ৮\n৪ × ৩ = ১২\n৪ × ৪ = ১৬\n৪ × ৫ = ২০\n৪ × ৬ = ২৪\n৪ × ৭ = ২৮\n৪ × ৮ = ৩২\n৪ × ৯ = ৩৬\n৪ × ১০ = ৪০"
+                        android:gravity="center"
+                        android:textColor="#020101"
+                        android:textSize="30sp"
+                        android:fontFamily="@font/baloo"
+                        android:id="@+id/namta4"
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="10dp"
+                    android:background="#FBFAFA">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="৫ - এর নামতা"
+                        android:gravity="center"
+                        android:textColor="#070706"
+                        android:textSize="40sp"
+                        android:background="#FFB300"
+                        android:fontFamily="@font/baloo"
+                        />
+                    <TextView
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:foreground="?attr/selectableItemBackground"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="৫ × ১ = ৫\n৫ × ২ = ১০\n৫ × ৩ = ১৫\n৫ × ৪ = ২০\n৫ × ৫ = ২৫\n৫ × ৬ = ৩০\n৫ × ৭ = ৩৫\n৫ × ৮ = ৪০\n৫ × ৯ = ৪৫\n৫ × ১০ = ৫০"
+                        android:gravity="center"
+                        android:textColor="#020101"
+                        android:textSize="30sp"
+                        android:fontFamily="@font/baloo"
+                        android:id="@+id/namta5"
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="10dp"
+                    android:background="#FBFAFA">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="৬ - এর নামতা"
+                        android:gravity="center"
+                        android:textColor="#070706"
+                        android:textSize="40sp"
+                        android:background="#FFB300"
+                        android:fontFamily="@font/baloo"
+                        />
+                    <TextView
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:foreground="?attr/selectableItemBackground"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="৬ × ১ = ৬\n৬ × ২ = ১২\n৬ × ৩ = ১৮\n৬ × ৪ = ২৪\n৬ × ৫ = ৩০\n৬ × ৬ = ৩৬\n৬ × ৭ = ৪২\n৬ × ৮ = ৪৮\n৬ × ৯ = ৫৪\n৬ × ১০ = ৬০"
+                        android:gravity="center"
+                        android:textColor="#020101"
+                        android:textSize="30sp"
+                        android:fontFamily="@font/baloo"
+                        android:id="@+id/namta6"
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="10dp"
+                    android:background="#FBFAFA">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="৭ - এর নামতা"
+                        android:gravity="center"
+                        android:textColor="#070706"
+                        android:textSize="40sp"
+                        android:background="#FFB300"
+                        android:fontFamily="@font/baloo"
+                        />
+                    <TextView
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:foreground="?attr/selectableItemBackground"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="৭ × ১ = ৭\n৭ × ২ = ১৪\n৭ × ৩ = ২১\n৭ × ৪ = ২৮\n৭ × ৫ = ৩৫\n৭ × ৬ = ৪২\n৭ × ৭ = ৪৯\n৭ × ৮ = ৫৬\n৭ × ৯ = ৬৩\n৭ × ১০ = ৭০"
+                        android:gravity="center"
+                        android:textColor="#020101"
+                        android:textSize="30sp"
+                        android:fontFamily="@font/baloo"
+                        android:id="@+id/namta7"
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="10dp"
+                    android:background="#FBFAFA">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="৮ - এর নামতা"
+                        android:gravity="center"
+                        android:textColor="#070706"
+                        android:textSize="40sp"
+                        android:background="#FFB300"
+                        android:fontFamily="@font/baloo"
+                        />
+                    <TextView
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:foreground="?attr/selectableItemBackground"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="৮ × ১ = ৮\n৮ × ২ = ১৬\n৮ × ৩ = ২৪\n৮ × ৪ = ৩২\n৮ × ৫ = ৪০\n৮ × ৬ = ৪৮\n৮ × ৭ = ৫৬\n৮ × ৮ = ৬৪\n৮ × ৯ = ৭২\n৮ × ১০ = ৮০"
+                        android:gravity="center"
+                        android:textColor="#020101"
+                        android:textSize="30sp"
+                        android:fontFamily="@font/baloo"
+                        android:id="@+id/namta8"
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="10dp"
+                    android:background="#FBFAFA">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="৯ - এর নামতা"
+                        android:gravity="center"
+                        android:textColor="#070706"
+                        android:textSize="40sp"
+                        android:background="#FFB300"
+                        android:fontFamily="@font/baloo"
+                        />
+                    <TextView
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:foreground="?attr/selectableItemBackground"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="৯ × ১ = ৯\n৯ × ২ = ১৮\n৯ × ৩ = ২৭\n৯ × ৪ = ৩৬\n৯ × ৫ = ৪৫\n৯ × ৬ = ৫৪\n৯ × ৭ = ৬৩\n৯ × ৮ = ৭২\n৯ × ৯ = ৮১\n৯ × ১০ = ৯০"
+                        android:gravity="center"
+                        android:textColor="#020101"
+                        android:textSize="30sp"
+                        android:fontFamily="@font/baloo"
+                        android:id="@+id/namta9"
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="10dp"
+                    android:background="#FBFAFA">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="১০ - এর নামতা"
+                        android:gravity="center"
+                        android:textColor="#070706"
+                        android:textSize="40sp"
+                        android:background="#FFB300"
+                        android:fontFamily="@font/baloo"
+                        />
+                    <TextView
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:foreground="?attr/selectableItemBackground"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="১০ × ১ = ১০\n১০ × ২ = ২০\n১০ × ৩ = ৩০\n১০ × ৪ = ৪০\n১০ × ৫ = ৫০\n১০ × ৬ = ৬০\n১০ × ৭ = ৭০\n১০ × ৮ = ৮০\n১০ × ৯ = ৯০\n১০ × ১০ = ১০০"
+                        android:gravity="center"
+                        android:textColor="#020101"
+                        android:textSize="30sp"
+                        android:fontFamily="@font/baloo"
+                        android:id="@+id/namta10"
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="10dp"
+                    android:background="#FBFAFA">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="১১ - এর নামতা"
+                        android:gravity="center"
+                        android:textColor="#070706"
+                        android:textSize="40sp"
+                        android:background="#FFB300"
+                        android:fontFamily="@font/baloo"
+                        />
+                    <TextView
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:foreground="?attr/selectableItemBackground"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="১১ × ১ = ১১\n১১ × ২ = ২২\n১১ × ৩ = ৩৩\n১১ × ৪ = ৪৪\n১১ × ৫ = ৫৫\n১১ × ৬ = ৬৬\n১১ × ৭ = ৭৭\n১১ × ৮ = ৮৮\n১১ × ৯ = ৯৯\n১১ × ১০ = ১১০"
+                        android:gravity="center"
+                        android:textColor="#020101"
+                        android:textSize="30sp"
+                        android:fontFamily="@font/baloo"
+                        android:id="@+id/namta11"
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="10dp"
+                    android:background="#FBFAFA">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="১২ - এর নামতা"
+                        android:gravity="center"
+                        android:textColor="#070706"
+                        android:textSize="40sp"
+                        android:background="#FFB300"
+                        android:fontFamily="@font/baloo"
+                        />
+                    <TextView
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:foreground="?attr/selectableItemBackground"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="১২ × ১ = ১২\n১২ × ২ = ২৪\n১২ × ৩ = ৩৬\n১২ × ৪ = ৪৮\n১২ × ৫ = ৬০\n১২ × ৬ = ৭২\n১২ × ৭ = ৮৪\n১২ × ৮ = ৯৬\n১২ × ৯ = ১০৮\n১২ × ১০ = ১২০"
+                        android:gravity="center"
+                        android:textColor="#020101"
+                        android:textSize="30sp"
+                        android:fontFamily="@font/baloo"
+                        android:id="@+id/namta12"
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="10dp"
+                    android:background="#FBFAFA">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="১৩ - এর নামতা"
+                        android:gravity="center"
+                        android:textColor="#070706"
+                        android:textSize="40sp"
+                        android:background="#FFB300"
+                        android:fontFamily="@font/baloo"
+                        />
+                    <TextView
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:foreground="?attr/selectableItemBackground"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="১৩ × ১ = ১৩\n১৩ × ২ = ২৬\n১৩ × ৩ = ৩৯\n১৩ × ৪ = ৫২\n১৩ × ৫ = ৬৫\n১৩ × ৬ = ৭৮\n১৩ × ৭ = ৯১\n১৩ × ৮ = ১০৪\n১৩ × ৯ = ১১৭\n১৩ × ১০ = ১৩০"
+                        android:gravity="center"
+                        android:textColor="#020101"
+                        android:textSize="30sp"
+                        android:fontFamily="@font/baloo"
+                        android:id="@+id/namta13"
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="10dp"
+                    android:background="#FBFAFA">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="১৪ - এর নামতা"
+                        android:gravity="center"
+                        android:textColor="#070706"
+                        android:textSize="40sp"
+                        android:background="#FFB300"
+                        android:fontFamily="@font/baloo"
+                        />
+                    <TextView
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:foreground="?attr/selectableItemBackground"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="১৪ × ১ = ১৪\n১৪ × ২ = ২৮\n১৪ × ৩ = ৪২\n১৪ × ৪ = ৫৬\n১৪ × ৫ = ৭০\n১৪ × ৬ = ৮৪\n১৪ × ৭ = ৯৮\n১৪ × ৮ = ১১২\n১৪ × ৯ = ১২৬\n১৪ × ১০ = ১৪০"
+                        android:gravity="center"
+                        android:textColor="#020101"
+                        android:textSize="30sp"
+                        android:fontFamily="@font/baloo"
+                        android:id="@+id/namta14"
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="10dp"
+                    android:background="#FBFAFA">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="১৫ - এর নামতা"
+                        android:gravity="center"
+                        android:textColor="#070706"
+                        android:textSize="40sp"
+                        android:background="#FFB300"
+                        android:fontFamily="@font/baloo"
+                        />
+                    <TextView
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:foreground="?attr/selectableItemBackground"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="১৫ × ১ = ১৫\n১৫ × ২ = ৩০\n১৫ × ৩ = ৪৫\n১৫ × ৪ = ৬০\n১৫ × ৫ = ৭৫\n১৫ × ৬ = ৯০\n১৫ × ৭ = ১০৫\n১৫ × ৮ = ১২০\n১৫ × ৯ = ১৩৫\n১৫ × ১০ = ১৫০"
+                        android:gravity="center"
+                        android:textColor="#020101"
+                        android:textSize="30sp"
+                        android:fontFamily="@font/baloo"
+                        android:id="@+id/namta15"
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="10dp"
+                    android:background="#FBFAFA">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="১৬ - এর নামতা"
+                        android:gravity="center"
+                        android:textColor="#070706"
+                        android:textSize="40sp"
+                        android:background="#FFB300"
+                        android:fontFamily="@font/baloo"
+                        />
+                    <TextView
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:foreground="?attr/selectableItemBackground"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="১৬ × ১ = ১৬\n১৬ × ২ = ৩২\n১৬ × ৩ = ৪৮\n১৬ × ৪ = ৬৪\n১৬ × ৫ = ৮০\n১৬ × ৬ = ৯৬\n১৬ × ৭ = ১১২\n১৬ × ৮ = ১২৮\n১৬ × ৯ = ১৪৪\n১৬ × ১০ = ১৬০"
+                        android:gravity="center"
+                        android:textColor="#020101"
+                        android:textSize="30sp"
+                        android:fontFamily="@font/baloo"
+                        android:id="@+id/namta16"
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="10dp"
+                    android:background="#FBFAFA">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="১৭ - এর নামতা"
+                        android:gravity="center"
+                        android:textColor="#070706"
+                        android:textSize="40sp"
+                        android:background="#FFB300"
+                        android:fontFamily="@font/baloo"
+                        />
+                    <TextView
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:foreground="?attr/selectableItemBackground"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="১৭ × ১ = ১৭\n১৭ × ২ = ৩৪\n১৭ × ৩ = ৫১\n১৭ × ৪ = ৬৮\n১৭ × ৫ = ৮৫\n১৭ × ৬ = ১০২\n১৭ × ৭ = ১১৯\n১৭ × ৮ = ১৩৬\n১৭ × ৯ = ১৫৩\n১৭ × ১০ = ১৭০"
+                        android:gravity="center"
+                        android:textColor="#020101"
+                        android:textSize="30sp"
+                        android:fontFamily="@font/baloo"
+                        android:id="@+id/namta17"
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="10dp"
+                    android:background="#FBFAFA">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="১৮ - এর নামতা"
+                        android:gravity="center"
+                        android:textColor="#070706"
+                        android:textSize="40sp"
+                        android:background="#FFB300"
+                        android:fontFamily="@font/baloo"
+                        />
+                    <TextView
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:foreground="?attr/selectableItemBackground"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="১৮ × ১ = ১৮\n১৮ × ২ = ৩৬\n১৮ × ৩ = ৫৪\n১৮ × ৪ = ৭২\n১৮ × ৫ = ৯০\n১৮ × ৬ = ১০৮\n১৮ × ৭ = ১২৬\n১৮ × ৮ = ১৪৪\n১৮ × ৯ = ১৬২\n১৮ × ১০ = ১৮০"
+                        android:gravity="center"
+                        android:textColor="#020101"
+                        android:textSize="30sp"
+                        android:fontFamily="@font/baloo"
+                        android:id="@+id/namta18"
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="10dp"
+                    android:background="#FBFAFA">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="১৯ - এর নামতা"
+                        android:gravity="center"
+                        android:textColor="#070706"
+                        android:textSize="40sp"
+                        android:background="#FFB300"
+                        android:fontFamily="@font/baloo"
+                        />
+                    <TextView
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:foreground="?attr/selectableItemBackground"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="১৯ × ১ = ১৯\n১৯ × ২ = ৩৮\n১৯ × ৩ = ৫৭\n১৯ × ৪ = ৭৬\n১৯ × ৫ = ৯৫\n১৯ × ৬ = ১১৪\n১৯ × ৭ = ১৩৩\n১৯ × ৮ = ১৫২\n১৯ × ৯ = ১৭১\n১৯ × ১০ = ১৯০"
+                        android:gravity="center"
+                        android:textColor="#020101"
+                        android:textSize="30sp"
+                        android:fontFamily="@font/baloo"
+                        android:id="@+id/namta19"
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="10dp"
+                    android:background="#FBFAFA">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="২০ - এর নামতা"
+                        android:gravity="center"
+                        android:textColor="#070706"
+                        android:textSize="40sp"
+                        android:background="#FFB300"
+                        android:fontFamily="@font/baloo"
+                        />
+                    <TextView
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:foreground="?attr/selectableItemBackground"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="২০ × ১ = ২০\n২০ × ২ = ৪০\n২০ × ৩ = ৬০\n২০ × ৪ = ৮০\n২০ × ৫ = ১০০\n২০ × ৬ = ১২০\n২০ × ৭ = ১৪০\n২০ × ৮ = ১৬০\n২০ × ৯ = ১৮০\n২০ × ১০ = ২০০"
+                        android:gravity="center"
+                        android:textColor="#020101"
+                        android:textSize="30sp"
+                        android:fontFamily="@font/baloo"
+                        android:id="@+id/namta20"
+                        android:layout_marginBottom="50dp"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

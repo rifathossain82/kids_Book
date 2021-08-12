@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#FFB300"
+    tools:context=".Game_Home">
+    <LinearLayout
+        android:id="@+id/game_home_lin1"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?attr/selectableItemBackground"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/butn_backgraound5"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="220dp">
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            app:lottie_rawRes="@raw/brain_play"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            android:layout_gravity="center"
+            tools:ignore="MissingConstraints" />
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="বুদ্ধির খেলা"
+            android:textColor="#000000"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:fontFamily="@font/shobuj"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/game_home_lin2"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?attr/selectableItemBackground"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/butn_backgraound5"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="220dp">
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            app:lottie_rawRes="@raw/brain_test"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            android:layout_gravity="center"
+            tools:ignore="MissingConstraints" />
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="স্মৃতিশক্তি যাচাই"
+            android:textColor="#000000"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:fontFamily="@font/shobuj"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>

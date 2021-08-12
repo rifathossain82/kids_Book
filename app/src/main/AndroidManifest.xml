@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.test.mykidsbook">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Alphabet_sounds" android:screenOrientation="portrait"></activity>
+        <activity android:name=".Consonent_sounds" android:screenOrientation="portrait"/>
+        <activity android:name=".Vowels_sounds2" android:screenOrientation="portrait"/>
+        <activity android:name=".watch_video.Video_list" android:screenOrientation="portrait"/>
+        <activity android:name=".watch_video.WatchVideo" android:screenOrientation="portrait"/>
+        <activity android:name=".Game_Home" android:screenOrientation="portrait" />
+        <activity android:name=".game.Voice_game3" android:screenOrientation="portrait"/>
+        <activity android:name=".game.Voice_game2" android:screenOrientation="portrait"/>
+        <activity android:name=".game.Voice_game1" android:screenOrientation="portrait"/>
+        <activity android:name=".game.Level3" android:screenOrientation="portrait"/>
+        <activity android:name=".game.Level2" android:screenOrientation="portrait"/>
+        <activity android:name=".game.Level1" android:screenOrientation="portrait"/>
+        <activity android:name=".Some_national_sub" android:screenOrientation="portrait"/>
+        <activity android:name=".vegetables" android:screenOrientation="portrait"/>
+        <activity android:name=".Flowers" android:screenOrientation="portrait"/>
+        <activity android:name=".Fruit" android:screenOrientation="portrait"/>
+        <activity android:name=".Fourits_introduce" android:screenOrientation="portrait"/>
+        <activity android:name=".Fish" android:screenOrientation="portrait"/>
+        <activity android:name=".Biramchinnoh" android:screenOrientation="portrait"/>
+        <activity android:name=".Body_parts" android:screenOrientation="portrait"/>
+        <activity android:name=".Advice_sentence" android:screenOrientation="portrait"/>
+        <activity android:name=".Namata" android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Day_Month_Seasons"
+            android:label="@string/title_activity_day__month__seasons"
+            android:theme="@style/AppTheme.NoActionBar" android:screenOrientation="portrait"/>
+        <activity android:name=".Day_month_name" android:screenOrientation="portrait"/>
+        <activity android:name=".English_poem" android:screenOrientation="portrait"/>
+        <activity android:name=".Bangla_poem" android:screenOrientation="portrait"/>
+        <activity android:name=".Poem" android:screenOrientation="portrait"/>
+        <activity android:name=".Bird" android:screenOrientation="portrait"/>
+        <activity android:name=".Animals_intruduce" android:screenOrientation="portrait"/>
+        <activity android:name=".Animals" android:screenOrientation="portrait"/>
+        <activity android:name=".Arbi_numbers" android:screenOrientation="portrait"/>
+        <activity android:name=".Horof" android:screenOrientation="portrait"/>
+        <activity android:name=".Arbi_bornomala" android:screenOrientation="portrait"/>
+        <activity android:name=".English_Numbers" android:screenOrientation="portrait"/>
+        <activity android:name=".Learn_english" android:screenOrientation="portrait"/>
+        <activity android:name=".Alphabet" android:screenOrientation="portrait"/>
+        <activity android:name=".test_english" android:screenOrientation="portrait"/>
+        <activity android:name=".English_bornomala" android:screenOrientation="portrait"/>
+        <activity android:name=".Bangla_numbers" android:screenOrientation="portrait"/>
+        <activity android:name=".Folar_details" android:screenOrientation="portrait"/>
+        <activity android:name=".Vowel_signUse" android:screenOrientation="portrait"/>
+        <activity android:name=".test11" android:screenOrientation="portrait"/>
+        <activity android:name=".consonents" android:screenOrientation="portrait"/>
+        <activity android:name=".Vowels" android:screenOrientation="portrait"/>
+        <activity android:name=".Bangla_bornomala" android:screenOrientation="portrait"/>
+        <activity android:name=".Read_activity" android:screenOrientation="portrait"/>
+        <activity android:name=".Homepage" android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
